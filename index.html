@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
     <title>Blog Kenzie</title>
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav id="nav">
+            <div class="header__wrapper">
+                <img class="header__logo"
+                    src="https://kenzie.com.br/blog/wp-content/themes/kenzie/src/assets/img/logo.png"
+                    alt="Blog Kenzie Academy Brasil – Programação e Tecnologia" width="222" height="55">
+            </div>
+            <ul class="header__menu">
+                <li>
+                    <a href="https://kenzie.com.br/quem-somos" rel="noreferrer" class="menu_item" target="_blank">Quem somos</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/curriculo" rel="noreferrer" class="menu_item" target="_blank">Formação</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/pagamento" rel="noreferrer" class="menu_item" target="_blank">Pagamento</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/parceiras" rel="noreferrer" class="menu_item" target="_blank">Para empresas</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/faq" rel="noreferrer" class="menu_item" target="_blank">Dúvidas</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/blog/" rel="noreferrer"
+                        class="menu_item" target="_blank">Blog</a>
+                </li>
+                <li>
+                    <a href="https://kenzie.com.br/conteudos-gratuitos" rel="noreferrer" class="menu_item" target="_blank">Conteúdos
+                        gratuitos</a>
+                </li>
+            </ul>
+            <a class="header_btn" href="https://inscricao.kenzie.com.br/" rel="noreferrer" target="_blank">
+                Quero ser programador(a)
+                <img src="https://kenzie.com.br/blog/wp-content/themes/kenzie/src/assets/img/arrow.svg" alt="Seta"
+                    width="56" height="16" class="seta">
+            </a>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Blog da Kenzie</h1>
+        <section class="article-container">
+            <article>
+                <h2>Curso de programação: Kenzie é a melhor opção do Brasil</h2>
+                <p>Se você chegou aqui neste conteúdo, você deve estar procurando um curso de programação do zero para
+                    entrar com sucesso, neste mercado tão promissor.</p>
+                <p>Escrito por: <i>Brunno Kriger</i></p>
+                <a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" class="article_link" target="_blank">Acessar post</a>
+            </article>
+
+            <article>
+                <h2>Como aprender a programar do zero: passo a passo</h2>
+                <p>Quer entrar em um mercado de trabalho que não para de crescer, mas não sabe por onde começar?
+                    Pela programação.</p>
+                <p>Escrito por: <i>Daniel Kriger</i></p>
+                <a href="https://kenzie.com.br/blog/como-aprender-a-programar-2/" class="article_link" target="_blank">Acessar post</a>
+            </article>
+
+
+            <article>
+                <h2>Comandos CMD windows: oque são e quais os principais</h2>
+                <p>O prompt de comando CMD Windowss, também conhecido como CMD, é um recurso nativo do sistema
+                    operacional Windows que nos auxilia a interagir com o sistema operacional...</p>
+                <p>Escrito por: <i>Brunno Kriger</i></p>
+                <a href="https://kenzie.com.br/blog/comandos-cmd-windows/" class="article_link" target="_blank">Acessar post</a>
+            </article>
+
+            <article>
+                <h2>Curso de programação: Kenzie é a melhor opção do Brasil</h2>
+                <p>O desenvolvimento de software é uma área em constante evolução, com novas tecnologias e ferramentas
+                    surgindo a cada dia. Para atender às demandas do mercado, surgiram
+                    diversos profissionais
+                    especializados em áreas específicas do desenvolvimento de software.</p>
+                <p>Escrito por: <i>Ugo Roveda</i></p>
+                <a href="https://kenzie.com.br/blog/melhor-curso-de-programacao/" class="article_link" target="_blank">Acessar post</a>
+            </article>
+        </section>
+
+        <section class="form-container">
+            <h3>Deseja receber nossas notícias em primeira mão?</h3>
+            <form action="input_email">
+                <legend>Basta Inserir o seu e-mail de preferência</legend>
+                <label for="input_email">Email:</label>
+                <input id="input_email" type="email" placeholder="Digite seu email aqui" name="email" required />
+                <button id="input_email" class="button-email" type="submit">Receber newsletter</button>
+            </form>
+        </section>
+    </main>
 </body>
+
 </html>
